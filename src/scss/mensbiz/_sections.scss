@@ -1,0 +1,365 @@
+.cms-index-index .pre-footer {
+	display: none !important;
+}
+
+
+
+
+
+.from-journal {
+	position: relative;
+	padding: 45px 0 80px 0;
+	.top-line {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 15px;
+	}
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		height: 100%;
+		top: 0;
+		left: 50%;
+		margin-left: -100vw;
+		z-index: -1;
+		width: 500vw;
+		background-color: $warm-d;
+	}
+	&-item {
+		display: block;
+		text-decoration: none;
+		padding-top: 15px;
+		border-top: 1px solid $col-h;
+		img {
+			font-size: 0;
+			width: 100%;
+			margin-bottom: 12px;
+		}
+		h5 {
+			margin: 0 0 12px 0;
+			transition: .2s ease-in-out;
+		}
+		p {
+			font-size: 13px;
+			line-height: 20px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		&:hover h5 {
+			text-decoration: underline;
+		}
+	}
+}
+
+.top-line .btn {
+	font: 500 normal 13px / 20px Roboto, sans-serif;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	padding: 11px 30px;
+}
+
+
+
+
+.our-barbershop {
+	position: relative;
+	padding-bottom: 60px;
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		height: 100%;
+		top: 0;
+		left: 50%;
+		margin-left: -100vw;
+		z-index: -1;
+		width: 500vw; 
+		background-color: $warm;
+	}
+	&-content {
+		h5 { margin-bottom: 15px; }
+		.btn.btn-default { margin-top: 35px; }
+	}
+	.btn {
+		padding: 11px 30px;
+	}
+}
+
+.our-manifesto {
+	position: relative;
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		height: 100%;
+		top: 0;
+		left: calc(100% + 15px);
+		margin-left: -100vw;
+		z-index: -1;
+		width: 500vw;
+		background-color: $warm;
+	}
+	h2 { 
+		margin: 15px 0 30px 0;
+	}
+	p {
+		font-size: 13px;
+		line-height: 20px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+ 
+.category-cms,
+.category-description { 
+	padding-bottom: 60px;
+	@include bg(#F7F5F3);  
+}
+
+ 
+.category-cms {
+	margin-bottom: 60px; 
+}
+
+
+.breadcrumbs {
+	background: none !important;
+}
+
+.subcategory-view .breadcrumbs  {
+	padding: 25px 0 !important; 
+}
+ 
+.catalog-category-view:not(.subcategory-view) .breadcrumbs { 
+	@include bg(#F7F5F3); 
+}
+
+.our-services:after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: calc(100% + 15px);
+	margin-left: -200vw;
+	z-index: -1;
+	width: 500vw;
+	background-color: $warm;
+}
+
+.our-manifesto,
+.our-services {
+	padding: 60px 0 65px 0;
+}
+.our-manifesto { padding-right: 30%; }
+
+.our-services {
+	text-align: center;
+	h6 {
+		margin: 0 0 3px 0;
+	}
+	.icons-wraper { 
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 0 -25px;
+		.icon-item {
+			display: block;
+			text-decoration: none;
+			width: 50%;
+			padding: 0 15px;
+			margin-bottom: 25px;
+			&:hover h6 {
+				cursor: pointer;
+				text-decoration: underline;
+			}
+		}
+	}
+	
+}
+
+.shop-our-bestseller {
+	margin-bottom: 90px !important;
+}
+
+.shop-new-arrival {
+	position: relative;
+	padding-top: 45px;
+	margin-bottom: 60px !important;
+	&:before {
+		content: "" !important;
+		display: block !important; 
+		position: absolute;
+		left: 15px;
+		right: 15px;
+		height: 1px;
+		background-color: $col-h;
+		top: 0;
+		z-index: 10;
+	}
+}
+
+.limited-offer {
+	margin-bottom: 60px;
+	.product-item {
+		border: none;
+		.price-box {
+			width: 100%; 
+			margin: 10px 0 0 0; 
+			text-align: left; 
+			clear: both !important;
+		}
+		.product-item-info {
+			position: relative;
+			margin: 0;
+			width: 100%;
+			height: 0;
+			padding-bottom: 53%;
+			border: none;
+			.product-item-photo {
+				display: block;
+				position: absolute;
+				width: 50%;
+				right: 0;
+				top: 0;
+			}
+			.product-item-details{
+				position: absolute;
+				width: 50%;
+				left: 0;
+				top: 0;
+				border: none !important;  
+				.price-wrapper {
+					margin-bottom: 30px; 
+					display: block;
+					.price {
+						font: normal normal 20px / 25px 'Roboto Mono';
+						color: $col-h;
+					}
+				}
+				.product-item-link {
+					font: normal normal 20px / 25px 'Libre Baskerville';
+					height: unset;
+					color: $col-h;
+				}
+				.action.tocart.primary {
+					margin: 0; 
+					padding: 0 !important; 
+					position: relative;
+					font: 600 normal rem(13px) / 15px 'Roboto', sans-serif !important;
+					font-size: rem(13px) !important;  
+					letter-spacing: 0.03em;  
+					text-decoration: underline;
+					color: #212124;
+					text-transform: uppercase;  
+					text-align: left;  
+					background: none;
+					border: none;
+					span {
+						color: $col-h;  
+					}
+					&:hover {
+						cursor: pointer;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+	.owl-controls{
+		position: absolute;
+		bottom: 40px;
+		left: 0; 
+		.owl-nav {
+			width: 50px;
+		}
+	}
+}
+
+
+
+
+.featured-brands {
+	.featured-brands-wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		margin: 0 -15px;
+		.brand-item {
+			width: 50%; 
+			padding: 0 15px;
+			margin-bottom: 35px;
+			text-align: center;
+			
+		}
+
+	}
+} 
+
+
+
+.catalog-category-view {
+	.featured-brands {
+		margin-bottom: 20px; 
+		.featured-brands-wrapper {
+			.brand-item {
+				width: 33%; 
+				padding: 0 15px;
+				margin-bottom: 35px;
+				text-align: center;
+				
+			}
+
+		}
+	} 
+}
+
+.category-details-wrapper {
+	.desc {
+		font-size: rem(13px); 
+	}
+}
+
+
+.catalog-category-view #layer-product-list {
+	.products-grid {
+		margin: 0;
+		// width: calc(100% + 46px); 
+		// transform: translate(-23px, 0);  
+	}
+}
+
+
+.sub-category-details {
+	background-color: $warm;    
+	padding: 30px;
+	max-height: 320px;
+	margin-left: -15px; 
+	z-index: 1;
+	position: relative;
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 100%;
+		background-color: $warm;    
+		height: 33px;
+		bottom: 0;
+		left: 0;
+		z-index: 2;
+	}
+	h1 {
+		font-size: rem(30px) !important;  
+		margin-bottom: 15px !important; 
+	}
+	p {
+		font: normal normal rem(13px) / rem(20px) Roboto, sans-serif !important;  
+		color: $col-h-l;
+	}
+}    

@@ -1,0 +1,40 @@
+html,
+body {
+	font-size: $body-font-size; 
+}
+
+
+
+html {
+	h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 20px;
+		text-transform: none;
+		color: $col-h;
+	}
+	h2 {
+		font: normal normal rem(35px) / rem(40px) 'Libre Baskerville', serif;
+	}
+	h3 {
+		font: normal normal rem(30px) / rem(35px) 'Libre Baskerville';
+		color: $col-h;
+		margin: 0 0 30px 0; 
+	}
+	h4 {
+		font: normal normal rem(25px) / rem(30px) 'Libre Baskerville';
+		margin: 0 0 30px 0;
+		padding: 0 !important;
+		span {
+			font: normal normal rem(25px) / rem(30px) 'Libre Baskerville';
+		}
+	}
+	h5 {
+		font: normal normal rem(20px) / rem(25px) 'Libre Baskerville', serif; 
+	}
+	h6 {
+		font: bold normal rem(15px) / rem(25px) 'Libre Baskerville', serif; 
+	}
+}
+ 
+
+
+ 

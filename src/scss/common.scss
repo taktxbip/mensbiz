@@ -1,0 +1,20 @@
+$col-h: #212124;
+$col-h-l: #4C4C4D;
+$warm-l: #F3F1F0;
+$warm: #EAE5E2;
+$warm-d: #E2DAD9;
+
+$body-font-size: 14px;  
+
+@import "mensbiz/_mixins.scss";
+@import "mensbiz/_typography.scss";
+@import "mensbiz/_svg_style.scss";
+@import "mensbiz/_ui.scss";
+@import "mensbiz/_dinesh.scss";
+@import "mensbiz/_header.scss";
+@import "mensbiz/_slider.scss";
+@import "mensbiz/_sections.scss";
+
+@import "mensbiz/_footer.scss";
+
+@import "mensbiz/media.scss";

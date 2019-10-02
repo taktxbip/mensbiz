@@ -8,13 +8,12 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     notify = require('gulp-notify'),
     prefix = require('gulp-autoprefixer'),
-    connect = require('gulp-connect'),
     sass = require('gulp-sass'),
     plumber = require('gulp-plumber'),
-    sourcemaps = require('gulp-sourcemaps'),
 		browserSync = require('browser-sync'),
 		cssnano = require('gulp-cssnano');
 
+	
 
 //css inject
 gulp.task('css-inject', function () {

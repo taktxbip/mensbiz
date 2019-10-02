@@ -78,6 +78,14 @@ p.small {
 			background: none !important;
 		}
 	}
+	&.primary.launch-shopping-guide {
+		&:hover {
+			cursor: pointer;
+			background-color: $col-h !important;
+			color: #fff !important; 
+		}
+	}
+	&.launch-shopping-guide,
 	&.secondary {
 		background: none;
 		color: $col-h;
@@ -87,6 +95,7 @@ p.small {
 		}
 	} 
 }
+
 .theme-pearl.store-view-default .action.secondary:hover {
 	color: #fff !important; 
 }

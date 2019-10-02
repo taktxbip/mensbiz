@@ -1,0 +1,10 @@
+.catalog-category-view .category-view.row {
+	margin-right: -15px !important;
+	margin-left: -15px !important;
+	width: unset !important;
+	+ .row {
+		margin-right: -15px !important;
+		margin-left: -15px !important;
+		width: unset !important;
+	}
+}   

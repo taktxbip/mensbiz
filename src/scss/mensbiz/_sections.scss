@@ -3,9 +3,6 @@
 }
 
 
-
-
-
 .from-journal {
 	position: relative;
 	padding: 45px 0 80px 0;
@@ -321,6 +318,9 @@
 }
 
 .category-details-wrapper {
+	h1 {
+		margin-left: -1px;
+	}
 	.desc {
 		font-size: rem(13px); 
 	}

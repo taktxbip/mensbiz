@@ -57,7 +57,6 @@ gulp.task('watch-inject', function () {
     gulp.watch('src/scss/**/*.*', gulp.series('css-inject'));
 });
 
-
 //server
 gulp.task('server', function() {
     browserSync({

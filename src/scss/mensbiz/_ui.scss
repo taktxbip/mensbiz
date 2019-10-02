@@ -56,7 +56,7 @@ p.small {
 	}
 } 
 
-.page-main div:not(.filter-content) a.acqtion { 
+.page-main div:not(.filter-content) a.action { 
 	font: 500 normal rem(13px) / rem(20px) 'Roboto', sans-serif !important;
 	float: left;
 	margin: 0 !important;
@@ -71,7 +71,7 @@ p.small {
 		content: "";
 		clear: both;
 		display: table;
-	}
+	} 
 	&.primary {
 		&:hover {
 			cursor: pointer;
@@ -144,9 +144,10 @@ h4.separator {
 
 .towishlist {
 	border: none !important;
-	padding: 0 !important;
-	width: 18px;
-	height: 15px;
+	padding: 0 !important; 
+	width: 18px !important;
+	height: 15px !important;
+	margin: 0 !important;  
 	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 15'%3E%3Cpath d='M15.673 8.10971C16.5639 7.2188 17.0644 6.01048 17.0644 4.75055C17.0644 3.49063 16.5639 2.2823 15.6729 1.3914C14.782 0.500501 13.5737 -1.24312e-06 12.3138 0C11.0539 1.24312e-06 9.84554 0.500506 8.95464 1.39141L8.95511 1.39094L8.53216 1.81286L8.10915 1.3909L8.10963 1.39139C7.21873 0.500496 6.01041 5.87673e-06 4.75049 1.68576e-05C3.49057 2.78385e-05 2.28226 0.500539 1.39137 1.39144C0.500479 2.28235 -1.09807e-05 3.49067 1.80689e-10 4.75059C1.09811e-05 6.01051 0.500522 7.21882 1.39143 8.10971L1.39248 8.11076L2.19668 8.91065L2.19621 8.91019L8.14217 14.8385C8.24561 14.9419 8.38591 15 8.53219 15C8.67847 15 8.81877 14.9419 8.92221 14.8385L14.8682 8.91019L14.8677 8.91065L15.6719 8.11076L15.673 8.10971ZM14.0886 8.12736L14.0881 8.12782L8.53219 13.6672L2.97625 8.12782L2.97578 8.12736L2.17257 7.32847C1.83342 6.99006 1.5643 6.58813 1.38059 6.14565C1.19688 5.70317 1.10219 5.22881 1.10192 4.74971C1.10166 4.27061 1.19583 3.79615 1.37906 3.35346C1.56228 2.91078 1.83096 2.50855 2.16974 2.16977C2.50852 1.831 2.91074 1.56231 3.35343 1.37909C3.79611 1.19587 4.27057 1.10169 4.74967 1.10196C5.22878 1.10222 5.70313 1.19691 6.14561 1.38062C6.5881 1.56433 6.99003 1.83346 7.32843 2.1726L7.32892 2.17309L8.14208 2.9842C8.24555 3.08766 8.38588 3.14577 8.5322 3.14577C8.67852 3.14576 8.81885 3.08764 8.92232 2.98417L9.73536 2.17306L9.73584 2.17259C10.4195 1.48887 11.3469 1.10475 12.3138 1.10474C12.7926 1.10474 13.2666 1.19903 13.709 1.38225C14.1513 1.56546 14.5532 1.834 14.8918 2.17254C15.2303 2.51108 15.4989 2.91299 15.6821 3.35532C15.8653 3.79764 15.9596 4.27172 15.9596 4.7505C15.9596 5.22927 15.8653 5.70335 15.6821 6.14568C15.4989 6.58801 15.2304 6.98992 14.8918 7.32847L14.0886 8.12736Z' fill='%23202020'/%3E%3C/svg%3E%0A") center center no-repeat;
 	span {
 		display: none !important;
@@ -283,9 +284,7 @@ html .column.main .products-grid .product-item .product-item-info:hover .hoverSh
 		height: 100% !important;
 		width: 100% !important;  
 		display: block;
-		 
 	}
-
 }
 
 .btn.btn-default {
@@ -340,12 +339,14 @@ html .column.main .products-grid .product-item .product-item-info:hover .hoverSh
 
 
 
-//Breadcrumbs
+//-------------------------
+//-- Breadcrumbs Start -->
+//-------------------------
 html .theme-pearl.store-view-default.page-products .breadcrumbs {
 	width: 100% !important;
 	max-width: 1230px !important; 
 	margin: 0 auto;
-	padding: 25px 15px; 
+	padding: 25px 0; 
 	ul {
 		li {
 			strong,
@@ -372,6 +373,10 @@ html .theme-pearl.store-view-default .page-wrapper .breadcrumbs .items .item a:h
 	cursor: pointer;
 	color: $col-h;
 }
+//-------------------------
+//-- Breadcrumbs End -->
+//------ ¯\_(ツ)_/¯ ------
+
 
 
 
@@ -567,14 +572,14 @@ select option {
 				background-color: $col-h !important; 
 				span { color: #fff;  }
 			}
-		}
+		} 
 		&.current {
 			background-color: $col-h; 
 			height: 30px;  
 			.page { 
 				background-color: $col-h;  
 				font-size: 0;  
-				border: none !important;  
+				border: none !important;   
 				border-radius: 0 !important; 
 				height: 100% !important; 
 				width: 100% !important;
@@ -582,7 +587,7 @@ select option {
 				margin: 0 !important;  
 			} 
 			span {
-				font: 500 normal rem(13px) / 28px 'Roboto Mono', sans-serif !important;
+				font: 500 normal rem(13px) / 30px 'Roboto Mono', sans-serif !important;
 				color: #fff;
 				width: 100%;
 				height: 100%; 

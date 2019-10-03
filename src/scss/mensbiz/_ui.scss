@@ -56,7 +56,7 @@ p.small {
 	}
 } 
 
-.page-main div:not(.filter-content) a.action { 
+.page-main a.action { 
 	font: 500 normal rem(13px) / rem(20px) 'Roboto', sans-serif !important;
 	float: left;
 	margin: 0 !important;
@@ -94,6 +94,14 @@ p.small {
 			background-color: $col-h;
 		}
 	} 
+}
+
+.page-main .filter-content a.action {
+	padding: 0 !important;
+	border: 0 !important;
+	text-transform: initial;
+	text-decoration: underline;
+	line-height: 0 !important;
 }
 
 .theme-pearl.store-view-default .action.secondary:hover {

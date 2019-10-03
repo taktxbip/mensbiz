@@ -78,14 +78,15 @@ p.small {
 			background: none !important;
 		}
 	}
-	&.primary.launch-shopping-guide {
+	&.launch-shopping-guide {
+		background: none !important;
+		color: $col-h !important;
 		&:hover {
 			cursor: pointer;
 			background-color: $col-h !important;
 			color: #fff !important; 
 		}
 	}
-	&.launch-shopping-guide,
 	&.secondary {
 		background: none;
 		color: $col-h;
@@ -104,10 +105,10 @@ p.small {
 	line-height: 0 !important;
 }
 
-.theme-pearl.store-view-default .action.secondary:hover {
+html .theme-pearl.store-view-default .action.launch-shopping-guide:hover,
+html .theme-pearl.store-view-default .action.secondary:hover {
 	color: #fff !important; 
 }
-
 
 html .theme-pearl.store-view-default .action.primary:hover {
 	background: none;

@@ -458,7 +458,16 @@ html .theme-pearl.catalog-product-view .page-wrapper .breadcrumbs {
       font: normal normal rem(15px) / rem(26px) "Libre Baskerville", serif;
       letter-spacing: 0;
       color: $col-h;
-      margin-bottom: 20px;
+			margin-bottom: 20px;
+			a {
+				color: $col-h-l;
+				transition: .2s ease-in-out;
+				&:hover {
+					cursor: pointer;
+					color: $accent;
+					text-decoration: underline;
+				}
+			}
     }
     .left-box {
       .item {
